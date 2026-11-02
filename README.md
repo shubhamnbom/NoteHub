@@ -1,68 +1,16 @@
-#  NoteHub
+# React + Vite
 
-A responsive note-taking application built with React for creating and organizing notes with a clean and intuitive interface.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-##  Features
+Currently, two official plugins are available:
 
-- Create, edit, and delete notes
-- Search notes instantly
-- Pin important notes
-- Add tags to notes
-- Upload images to notes
-- Dark/Light mode
-- Responsive user interface
-- Persistent data using Local Storage
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-##  Tech Stack
+## React Compiler
 
-- React.js
-- JavaScript
-- CSS3
-- HTML5
-- Local Storage
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-##  Getting Started
+## Expanding the ESLint configuration
 
-Clone the repository:
-
-```bash
-git clone https://github.com/uniyalsarthak/NoteHub.git
-```
-
-Go to the project directory:
-
-```bash
-cd NoteHub
-```
-
-Install dependencies:
-
-```bash
-npm install
-```
-
-Run the development server:
-
-```bash
-npm run dev
-```
-
-Open your browser and visit:
-
-```
-http://localhost:5173
-```
-
-## 📁 Project Structure
-
-```
-NoteHub
-├── public
-├── src
-│   ├── components
-│   ├── App.jsx
-│   ├── main.jsx
-│   └── index.css
-├── package.json
-└── README.md
-```
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
